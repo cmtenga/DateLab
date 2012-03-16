@@ -51,8 +51,6 @@ public class DateLab {
         DateFormat df = DateFormat.getDateInstance(DateFormat.MEDIUM);
         System.out.println(df.format(date3));
         System.out.println(df.format(secondDate.getTime()));
-
-
         System.out.println("Number of days elapsed is " + difference);
 
         System.out.println();
